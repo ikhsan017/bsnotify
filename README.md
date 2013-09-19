@@ -1,6 +1,6 @@
 ##bsnotify
 
-A simple notification halper for Twitter Bootstrap 3
+A simple notification halper for Twitter Bootstrap 3, using default bootstrap modal plugin
 
 ###Usage
 

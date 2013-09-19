@@ -18,6 +18,6 @@ to display simple notification, simply call $().notify
 ```javascript
  $().notify('alert',{
     title : 'Notification Title',
-    'message' : 'Some notification message'
+    message : 'Some notification message'
  })
 ```

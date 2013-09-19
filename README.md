@@ -13,11 +13,18 @@ You need to load bootstrap.css and bootstrap.js first before loading jquery.bsno
  <script type="text/javascript" src="jquery.bsnotify.js"></script>        
 ```
 
-to display simple notification, simply call $().notify
+to display simple notification, simply call: 
+```javascript
+$().notify(type,options)
+```
+
+type could be alert, warning, success, or info.
+options should be object with title and message property
+
 
 ```javascript
- $().notify('alert',{
+$().notify('alert',{
     title : 'Notification Title',
     message : 'Some notification message'
- })
+})
 ```
